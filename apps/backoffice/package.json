@@ -1,0 +1,40 @@
+{
+  "name": "@mwrd/backoffice",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3003",
+    "build": "next build",
+    "start": "next start --port 3003",
+    "lint": "eslint --max-warnings 0",
+    "check-types": "next typegen && tsc --noEmit"
+  },
+  "dependencies": {
+    "@mwrd/db": "workspace:*",
+    "@mwrd/i18n": "workspace:*",
+    "@mwrd/invoicing": "workspace:*",
+    "@mwrd/payments": "workspace:*",
+    "@mwrd/po-engine": "workspace:*",
+    "@mwrd/ui": "workspace:*",
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.45.4",
+    "next": "^16.2.0",
+    "next-intl": "^4.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@mwrd/eslint-config": "workspace:*",
+    "@mwrd/typescript-config": "workspace:*",
+    "@tailwindcss/postcss": "^4.1.7",
+    "@types/node": "^22.15.3",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "eslint": "^9.39.1",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^4.1.7",
+    "typescript": "5.9.2"
+  }
+}

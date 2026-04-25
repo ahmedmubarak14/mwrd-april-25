@@ -1,0 +1,166 @@
+{
+  "common": {
+    "appName": "MWRD",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "save": "Save",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "back": "Back",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "signUp": "Create account"
+  },
+  "nav": {
+    "home": "Home",
+    "catalog": "Catalog",
+    "cart": "Cart",
+    "orders": "Orders",
+    "wallet": "Wallet",
+    "settings": "Settings"
+  },
+  "landing": {
+    "tagline": "Smart procurement for Saudi enterprises",
+    "subtitle": "Office supplies without friction — request, approve, deliver"
+  },
+  "auth": {
+    "signin": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your MWRD account",
+      "email": "Work email",
+      "emailPlaceholder": "you@company.com",
+      "password": "Password",
+      "passwordPlaceholder": "••••••••",
+      "submit": "Sign in",
+      "forgotPassword": "Forgot password?",
+      "noAccount": "Don't have an account?",
+      "signupLink": "Create one",
+      "errorInvalid": "Invalid email or password",
+      "errorGeneric": "Something went wrong. Please try again."
+    },
+    "signup": {
+      "title": "Get started",
+      "subtitle": "Create your MWRD buyer account",
+      "fullName": "Full name",
+      "fullNamePlaceholder": "Ahmed Al-Rashidi",
+      "email": "Work email",
+      "emailPlaceholder": "you@company.com",
+      "password": "Password",
+      "passwordPlaceholder": "Min. 8 characters",
+      "submit": "Create account",
+      "hasAccount": "Already have an account?",
+      "signinLink": "Sign in",
+      "successTitle": "Check your inbox",
+      "successBody": "We sent a confirmation link to {email}. Click it to activate your account.",
+      "errorGeneric": "Something went wrong. Please try again.",
+      "errorEmailTaken": "An account with this email already exists."
+    },
+    "verify": {
+      "checking": "Verifying your email…",
+      "error": "The link is invalid or has expired. Please sign up again."
+    }
+  },
+  "catalog": {
+    "title": "Catalog",
+    "search": "Search products…",
+    "searchLabel": "Search",
+    "allCategories": "All categories",
+    "noProducts": "No products found.",
+    "noProductsHint": "Try a different category or search term.",
+    "addToCart": "Add to cart",
+    "addedToCart": "Added",
+    "adding": "Adding…",
+    "outOfStock": "Out of stock",
+    "unit": "Unit",
+    "minOrder": "Min. order",
+    "vatIncluded": "VAT included",
+    "priceExVat": "excl. VAT",
+    "errorAddFailed": "Couldn't add to cart. Please try again."
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty.",
+    "emptyHint": "Browse the catalog to add items.",
+    "browseCatalog": "Browse catalog",
+    "vendor": "Supplier",
+    "qty": "Qty",
+    "unitPrice": "Unit price",
+    "lineTotal": "Total",
+    "subtotal": "Subtotal",
+    "vat": "VAT (15%)",
+    "grandTotal": "Grand total",
+    "remove": "Remove",
+    "removing": "Removing…",
+    "update": "Update",
+    "checkout": "Proceed to checkout",
+    "errorRemoveFailed": "Couldn't remove item.",
+    "errorUpdateFailed": "Couldn't update quantity."
+  },
+  "onboarding": {
+    "title": "Set up your workspace",
+    "subtitle": "We found your work email. Let's connect you to your company.",
+    "detectingCompany": "Looking up your company…",
+    "joinTitle": "Your company is already on MWRD",
+    "joinSubtitle": "Request access and an admin will approve you shortly.",
+    "joinButton": "Request to join",
+    "joinMessageLabel": "Add a note (optional)",
+    "joinMessagePlaceholder": "e.g. I'm on the procurement team",
+    "joinPendingTitle": "Request sent",
+    "joinPendingBody": "Your request to join {company} has been sent. An admin will approve it shortly.",
+    "createTitle": "Create your company workspace",
+    "createSubtitle": "No existing workspace found for your email domain. Set one up now.",
+    "nameArLabel": "Company name (Arabic)",
+    "nameArPlaceholder": "شركة الأمثلة",
+    "nameEnLabel": "Company name (English)",
+    "nameEnPlaceholder": "Acme Corporation",
+    "createButton": "Create workspace",
+    "errorUnauthenticated": "You must be signed in.",
+    "errorInvalidInput": "Please check your inputs and try again.",
+    "errorCreateFailed": "Couldn't create company. Please try again.",
+    "errorMemberFailed": "Couldn't add you as admin. Please try again.",
+    "errorAlreadyRequested": "You already have a pending request for this company.",
+    "errorRequestFailed": "Couldn't send request. Please try again.",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "alreadyInCompany": "You're all set! Redirecting you…"
+  },
+  "portal": {
+    "nav": {
+      "home": "Home",
+      "catalog": "Catalog",
+      "orders": "Orders",
+      "settings": "Settings"
+    },
+    "companySwitcher": {
+      "label": "Active workspace",
+      "switch": "Switch",
+      "noCompany": "No workspace",
+      "myWorkspaces": "My workspaces"
+    },
+    "joinRequests": {
+      "title": "Join Requests",
+      "subtitle": "People requesting to join your company on MWRD.",
+      "empty": "No pending join requests.",
+      "approve": "Approve",
+      "reject": "Reject",
+      "approving": "Approving…",
+      "rejecting": "Rejecting…",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "requestedAt": "Requested",
+      "message": "Message",
+      "noMessage": "No message",
+      "errorNotFound": "Request not found.",
+      "errorMemberFailed": "Couldn't add member. Please try again.",
+      "errorGeneric": "Something went wrong. Please try again."
+    }
+  },
+  "client": {
+    "welcome": "Welcome to the buyer portal"
+  },
+  "supplier": {
+    "welcome": "Welcome to the supplier portal"
+  },
+  "backoffice": {
+    "welcome": "MWRD operations console"
+  }
+}

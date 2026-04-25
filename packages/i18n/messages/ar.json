@@ -1,0 +1,166 @@
+{
+  "common": {
+    "appName": "مورد",
+    "loading": "جارٍ التحميل...",
+    "error": "حدث خطأ",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "continue": "متابعة",
+    "back": "رجوع",
+    "signIn": "تسجيل الدخول",
+    "signOut": "تسجيل الخروج",
+    "signUp": "إنشاء حساب"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "catalog": "الكتالوج",
+    "cart": "السلة",
+    "orders": "الطلبات",
+    "wallet": "المحفظة",
+    "settings": "الإعدادات"
+  },
+  "landing": {
+    "tagline": "منصة المشتريات الذكية للمؤسسات السعودية",
+    "subtitle": "مستلزمات المكتب بدون عناء — طلب، اعتماد، تسليم"
+  },
+  "auth": {
+    "signin": {
+      "title": "مرحباً بعودتك",
+      "subtitle": "سجّل دخولك إلى حساب مورد",
+      "email": "البريد الوظيفي",
+      "emailPlaceholder": "name@company.com",
+      "password": "كلمة المرور",
+      "passwordPlaceholder": "••••••••",
+      "submit": "تسجيل الدخول",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "noAccount": "ليس لديك حساب؟",
+      "signupLink": "أنشئ حساباً",
+      "errorInvalid": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+      "errorGeneric": "حدث خطأ ما. يرجى المحاولة مجدداً."
+    },
+    "signup": {
+      "title": "ابدأ الآن",
+      "subtitle": "أنشئ حساب المشتري على مورد",
+      "fullName": "الاسم الكامل",
+      "fullNamePlaceholder": "أحمد الرشيدي",
+      "email": "البريد الوظيفي",
+      "emailPlaceholder": "name@company.com",
+      "password": "كلمة المرور",
+      "passwordPlaceholder": "٨ أحرف على الأقل",
+      "submit": "إنشاء حساب",
+      "hasAccount": "لديك حساب بالفعل؟",
+      "signinLink": "سجّل دخولك",
+      "successTitle": "تحقق من بريدك الإلكتروني",
+      "successBody": "أرسلنا رابط التأكيد إلى {email}. انقر عليه لتفعيل حسابك.",
+      "errorGeneric": "حدث خطأ ما. يرجى المحاولة مجدداً.",
+      "errorEmailTaken": "يوجد حساب مرتبط بهذا البريد الإلكتروني."
+    },
+    "verify": {
+      "checking": "جارٍ التحقق من بريدك الإلكتروني…",
+      "error": "الرابط غير صالح أو منتهي الصلاحية. يرجى إعادة التسجيل."
+    }
+  },
+  "catalog": {
+    "title": "الكتالوج",
+    "search": "ابحث عن منتجات…",
+    "searchLabel": "بحث",
+    "allCategories": "جميع الفئات",
+    "noProducts": "لا توجد منتجات.",
+    "noProductsHint": "جرّب فئة أو مصطلح بحث مختلف.",
+    "addToCart": "أضف إلى السلة",
+    "addedToCart": "تمت الإضافة",
+    "adding": "جارٍ الإضافة…",
+    "outOfStock": "نفد المخزون",
+    "unit": "الوحدة",
+    "minOrder": "الحد الأدنى للطلب",
+    "vatIncluded": "شامل الضريبة",
+    "priceExVat": "قبل الضريبة",
+    "errorAddFailed": "تعذّر الإضافة إلى السلة. يرجى المحاولة مجدداً."
+  },
+  "cart": {
+    "title": "سلة التسوق",
+    "empty": "سلتك فارغة.",
+    "emptyHint": "تصفّح الكتالوج لإضافة منتجات.",
+    "browseCatalog": "تصفّح الكتالوج",
+    "vendor": "المورّد",
+    "qty": "الكمية",
+    "unitPrice": "سعر الوحدة",
+    "lineTotal": "الإجمالي",
+    "subtotal": "المجموع الجزئي",
+    "vat": "ضريبة القيمة المضافة (15%)",
+    "grandTotal": "الإجمالي الكلي",
+    "remove": "حذف",
+    "removing": "جارٍ الحذف…",
+    "update": "تحديث",
+    "checkout": "المتابعة للدفع",
+    "errorRemoveFailed": "تعذّر حذف المنتج.",
+    "errorUpdateFailed": "تعذّر تحديث الكمية."
+  },
+  "onboarding": {
+    "title": "إعداد مساحة العمل",
+    "subtitle": "وجدنا بريدك الوظيفي. لنربطك بشركتك.",
+    "detectingCompany": "جارٍ البحث عن شركتك…",
+    "joinTitle": "شركتك موجودة بالفعل على مورد",
+    "joinSubtitle": "اطلب الانضمام وسيوافق عليك المسؤول قريباً.",
+    "joinButton": "طلب الانضمام",
+    "joinMessageLabel": "أضف ملاحظة (اختياري)",
+    "joinMessagePlaceholder": "مثال: أنا من فريق المشتريات",
+    "joinPendingTitle": "تم إرسال الطلب",
+    "joinPendingBody": "تم إرسال طلب انضمامك إلى {company}. سيوافق عليه المسؤول قريباً.",
+    "createTitle": "إنشاء مساحة عمل جديدة",
+    "createSubtitle": "لم نجد مساحة عمل لنطاق بريدك الإلكتروني. أنشئ واحدة الآن.",
+    "nameArLabel": "اسم الشركة (عربي)",
+    "nameArPlaceholder": "شركة الأمثلة",
+    "nameEnLabel": "اسم الشركة (إنجليزي)",
+    "nameEnPlaceholder": "Acme Corporation",
+    "createButton": "إنشاء مساحة العمل",
+    "errorUnauthenticated": "يجب تسجيل الدخول أولاً.",
+    "errorInvalidInput": "يرجى التحقق من المدخلات وإعادة المحاولة.",
+    "errorCreateFailed": "تعذّر إنشاء الشركة. يرجى المحاولة مجدداً.",
+    "errorMemberFailed": "تعذّر إضافتك كمسؤول. يرجى المحاولة مجدداً.",
+    "errorAlreadyRequested": "لديك طلب انضمام معلّق لهذه الشركة بالفعل.",
+    "errorRequestFailed": "تعذّر إرسال الطلب. يرجى المحاولة مجدداً.",
+    "errorGeneric": "حدث خطأ ما. يرجى المحاولة مجدداً.",
+    "alreadyInCompany": "أنت جاهز! جارٍ التحويل…"
+  },
+  "portal": {
+    "nav": {
+      "home": "الرئيسية",
+      "catalog": "الكتالوج",
+      "orders": "الطلبات",
+      "settings": "الإعدادات"
+    },
+    "companySwitcher": {
+      "label": "مساحة العمل الحالية",
+      "switch": "تبديل",
+      "noCompany": "لا توجد مساحة عمل",
+      "myWorkspaces": "مساحات عملي"
+    },
+    "joinRequests": {
+      "title": "طلبات الانضمام",
+      "subtitle": "الأشخاص الذين يطلبون الانضمام إلى شركتك على مورد.",
+      "empty": "لا توجد طلبات انضمام معلّقة.",
+      "approve": "قبول",
+      "reject": "رفض",
+      "approving": "جارٍ القبول…",
+      "rejecting": "جارٍ الرفض…",
+      "approved": "تم القبول",
+      "rejected": "تم الرفض",
+      "requestedAt": "تاريخ الطلب",
+      "message": "الرسالة",
+      "noMessage": "لا توجد رسالة",
+      "errorNotFound": "الطلب غير موجود.",
+      "errorMemberFailed": "تعذّر إضافة العضو. يرجى المحاولة مجدداً.",
+      "errorGeneric": "حدث خطأ ما. يرجى المحاولة مجدداً."
+    }
+  },
+  "client": {
+    "welcome": "مرحباً بك في بوابة المشتري"
+  },
+  "supplier": {
+    "welcome": "مرحباً بك في بوابة المورّد"
+  },
+  "backoffice": {
+    "welcome": "لوحة إدارة مورد"
+  }
+}
